@@ -9,17 +9,31 @@ h1 {
 }
 
 form {
-    margin: 3% 4% 3% 4%;
+    margin: 4%;
+    margin-left: 30px;
     vertical-align: middlel
 }
 
+.wynik {
+    display: inline;
+    float: right
+
+}
+
 label{
-    font-size: 20px
+    font-size: 20px;
+}
+
+
+
+input {
+    height: 25px;
+    width: 80px;
 }
 
 .clalcBox {
-    width: 600px;
-    height: 70px;
+    width: 700px;
+    height: 80px;
     margin: auto;
     border: 2px solid black;
     border-radius: 20px;
