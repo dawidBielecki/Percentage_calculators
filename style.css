@@ -5,14 +5,41 @@ body {
 
 h1 {
     text-align: center;
-    text-shadow: 1px 1px gra;
+    
+}
+
+
+.clalcBox {
+    width: 800px;
+    height: 80px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkgrey;
+    box-shadow: 3px 3px;
+    padding: 1v;
+    position: relative;
+}
+
+.outerForm {
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 form {
-    margin: 4%;
-    margin-left: 30px;
-    vertical-align: middlel
+    margin: 0;
+    
 }
+
+.sub:hover {
+    background-color:aquamarine;
+    
+}
+
 
 .wynik {
     display: inline;
@@ -31,16 +58,8 @@ input {
     width: 80px;
 }
 
-.clalcBox {
-    width: 700px;
-    height: 80px;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: darkgrey;
-    box-shadow: 3px 3px;
-    padding: 1v
-}
+
+
 
 
 

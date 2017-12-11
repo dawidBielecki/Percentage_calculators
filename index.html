@@ -7,19 +7,21 @@
 </head>
 
 <body>
-    <h1>Percentage Calculators</h1>
+    <h1>Kalkulator procentowy</h1>
     <div class="clalcBox">
-        <form>
-            <label for="name">Oblicz:</label>
-            <input type="text">
-            <label for="name">% z liczby: </label>
-            <input type="text">
+        <div class="outerForm">
+           <form id="calculateFunction">
+            <label for="name">Liczba</label>
+            <input type="text" id="numField1">
+            <label for="name">jest jakim procentem z </label>
+            <input type="text" id="numField2">
             <div class="wynik">
-            <label for="name">Wynik:</label>
-            <input type="text">
+            <input type="submit" value="oblicz" class="sub">
+            <input type="text" id="resultField">%
+            
             </div>
         </form>
-
+    </div>
     </div>
 
 
